@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<title>Mike Lee</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="l.png" style="width:100%">
+  <a href="main.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    
+    <p>HOME</p>
+  </a>
+  <a href="resume.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    
+    <p>RESUME</p>
+  </a>
+  <a href="project.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    
+    <p>PROJECTS</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    
+    <p>BLOG</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">RESUME</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PROJECTS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">BLOG</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small"></span> Software Engineering Projects</h1>
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-padding-32 w3-justify w3-text-grey " id="about">
+    <h2 class="w3-text-light-grey">Software Engineering</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p> My name is Mike Lee. A junior computer science major at UC Berkeley. I started computer science because I was enamored at the idea of creating. To craft products other people enjoy. Ideally, design something that transforms the routine. In practice, these lofty goals have translated to me taking interest in various clubs, classes and research projects. Stemming from my initial goal of creation, I joined Virtual Reality at Berkeley. I worked to create a novel user experience in "Landships!", a virtual reality mulitiplayer tank game where people could interact a fully functional tanks. In addition to exploring virtual reality, I worked and am still working with the Berkeley Institue of Data Science in order to help change the way medicine looks at newly developed technologies. More specifically, I am currently using convolutional neural nets to identify tumors segments in mri images. Furthermore these goals have shaped my path in my time at Berkeley, ranging from taking a software engineering class where we designed our own operating systems to data mining classes where we explored how to mold, proccess and magick data to scry coveted answers. 
+    </p>
+
+    
+  </div>
+
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="skills">
+    <h2 class="w3-text-light-grey">My Projects</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <p class="w3-wide">Pintos OS</p>
+    <div>
+      <a href="https://landships.vrab.io">
+        <img src="pintos.png" style="width:18%"  class = "w3-left w3-margin-right">
+      </a>
+      <p>       Jane Doe saved us from a web disaster.</p>
+      <p>       Jane Doe saved us from a web disaster.</p>
+      <p>       Jane Doe saved us from a web disaster.</p>
+      <p>       Jane Doe saved us from a web disaster.</p>
+      <p>       Jane Doe saved us from a web disaster.</p><br>
+    </div>
+
+    <p class="w3-wide">Secure Dropbox</p>
+    <div class>
+      <img src="dropbox.jpg" style="width:19%"  class = "w3-left w3-margin-right">
+      <p>       Jane Doe saved us from a web disaster.</p>
+      <p>       Jane Doe saved us from a web disaster.</p>
+      <p>       Jane Doe saved us from a web disaster.</p>
+      <p>       Jane Doe saved us from a web disaster.</p>
+      <p>       Jane Doe saved us from a web disaster.</p><br>
+    </div>
+
+    <p class="w3-wide">Automated Pac-Man</p>
+    <div class>
+      <img src="pac-man.png" style="width:24%"  class = "w3-left w3-margin-right">
+      <p>       Jane Doe saved us from a web disaster.</p>
+      <p>       Jane Doe saved us from a web disaster.</p>
+      <p>       Jane Doe saved us from a web disaster.</p>
+      <p>       Jane Doe saved us from a web disaster.</p>
+      <p>       Jane Doe saved us from a web disaster.</p><br>
+    </div><br>
+
+    
+
+   
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
