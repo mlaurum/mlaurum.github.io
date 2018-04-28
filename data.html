@@ -22,7 +22,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
 <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
   <!-- Avatar image in top left corner -->
-  <img src="l.png" style="width:100%">
+  <img src="pics/l.png" style="width:100%">
   <a href="main.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     
     <p>HOME</p>
@@ -62,7 +62,13 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   <div class="w3-content w3-padding-32 w3-justify w3-text-grey " id="about">
     <h2 class="w3-text-light-grey">About</h2>
     <hr style="width:200px" class="w3-opacity">
-    <p> My name is Mike Lee. A junior computer science major at UC Berkeley. I started computer science because I was enamored at the idea of creating. To craft products other people enjoy. Ideally, design something that transforms the routine. In practice, these lofty goals have translated to me taking interest in various clubs, classes and research projects. Stemming from my initial goal of creation, I joined Virtual Reality at Berkeley. I worked to create a novel user experience in "Landships!", a virtual reality mulitiplayer tank game where people could interact a fully functional tanks. In addition to exploring virtual reality, I worked and am still working with the Berkeley Institue of Data Science in order to help change the way medicine looks at newly developed technologies. More specifically, I am currently using convolutional neural nets to identify tumors segments in mri images. Furthermore these goals have shaped my path in my time at Berkeley, ranging from taking a software engineering class where we designed our own operating systems to data mining classes where we explored how to mold, proccess and magick data to scry coveted answers. 
+    <p> 
+ I have always wanted to learn more about the world, to discover the many secrets hiding just beneath the surface of everyday life. To understand how and why the normality we perceive is the way it is. Towards the end of my sophomore year, I had the pleasure of taking a course on data manipulation and realised that I really enjoyed using data to answer questions about my interests. </p>
+ <p>
+
+From there I decided to take on multiple project where I looked at the relationship between the death penalty in various states and their respective crime rates, built a classifier that identified whether a movie was more action or romance and even used a recurrent neural networks trained on the google news corpus in order to predict the next word in a sentence. Recently I have been heavily involved as an undergraduate researcher at the Berkeley Institute of Data science where we develop and train convolutional neural networks on MRI images in order to assist doctors with cancer diagnosis. Ultimately, I am a cs major because I enjoy exploring the way we interact with technology. But I am also a scientist at heart, curious about what secrets the world hides. 
+
+
     </p>
 
     
@@ -75,33 +81,23 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <p class="w3-wide">MRI Brain Segmentation</p>
     <div>
       <a href="https://www.med.upenn.edu/sbia/brats2018.html">
-        <img src="mri.jpg" style="width:40%"  class = "w3-left w3-margin-right">
+        <img src="pics/mri.jpg" style="width:40%"  class = "w3-left w3-margin-right">
       </a>
-      <p>       Jane Doe saved us from a web disaster.</p>
-      <p>       Jane Doe saved us from a web disaster.</p>
-      <p>       Jane Doe saved us from a web disaster.</p>
-      <p>       Jane Doe saved us from a web disaster.</p>
-      <p>       Jane Doe saved us from a web disaster.</p><br>
+      <p> I am currently working with various post-docs and Phd students to research MRI segmentation for tumor detection. We mainly use tensor flow for the training and NiftyNet as the base architecture for our own models. Currently we are researching various other deep learning methods, optimizing for dice score, to see if they provide more insight into our problem. We will enter the Brats imaging competition with the long term goal of presenting at Miccai 2019. The image will take you to the competition page.
+</p>
+     <br>
     </div>
 
     <p class="w3-wide">Word2Vec</p>
     <div class>
-      <img src="word2vec.png" style="width:30%"  class = "w3-left w3-margin-right">
-      <p>       Jane Doe saved us from a web disaster.</p>
-      <p>       Jane Doe saved us from a web disaster.</p>
-      <p>       Jane Doe saved us from a web disaster.</p>
-      <p>       Jane Doe saved us from a web disaster.</p>
-      <p>       Jane Doe saved us from a web disaster.</p><br>
+      <img src="pics/word2vec.png" style="width:30%"  class = "w3-left w3-margin-right">
+      <p>  In this project I used a word2vec library in python called gensim. Using this library, which I trained on the google corpus, I explored word vectors, their similarity, and came up with analogies in order to test my hypothesis regarding the space of words. In addition I chose two datasets, Brown's movie corpus and Google's News corpus to train a skip-gram model from scratch and generate some expected analogies and other vector arithmetic in that space. In addition using the results of this I applied dimensionality reduction techniques using T-sne in order to create a clustering of words.</p><br>
     </div>
 
     <p class="w3-wide">NBA</p>
     <div class>
-      <img src="nba.jpg" style="width:30%"  class = "w3-left w3-margin-right">
-      <p>       Jane Doe saved us from a web disaster.</p>
-      <p>       Jane Doe saved us from a web disaster.</p>
-      <p>       Jane Doe saved us from a web disaster.</p>
-      <p>       Jane Doe saved us from a web disaster.</p>
-      <p>       Jane Doe saved us from a web disaster.</p><br>
+      <img src="pics/nba.jpg" style="width:40%"  class = "w3-left w3-margin-right">
+      <p> This is my most recent data engineering project. I am currently working with 2 other Masters Berkeley student in order to use machine learning to analyze a NBA data set containing all match data from the 2015 seasons. We are currently taking multiple approaches to handling the data, using a knn algorithm for pre-processing in order to classify and segment the court. One approach we are taking is a bag of words model to the data. We are currently training a Recurrent Neural Network in order to predict whether a sequence of plays results in a goal or miss. We plan to use this to answer questions such as "Given the defensive plan, what is the best play for the offense to maximize the probability of scoring?""    </p><br>
     </div><br>
 
     
@@ -109,11 +105,13 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
    
   
     <!-- Footer -->
-  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-  <!-- End footer -->
-  </footer>
+   <footer class="w3-container w3-center w3-margin-top">
+  <p>Find me on social media.</p>
+  <a href="https://www.linkedin.com/in/jun-hee-lee/">
+      <i class="fa fa-linkedin fa-fw w3-hover-opacity w3-xxlarge w3-margin-right w3-margin-bottom"></i>
+      </a>
+</footer>
+
 
 <!-- END PAGE CONTENT -->
 </div>
